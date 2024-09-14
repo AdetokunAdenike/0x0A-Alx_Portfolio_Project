@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spelling Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Spelling Quiz</h1>
+
+      <!-- Question Section -->
+      <div id="container">
+        <p id="question">Which one is the correct spelling?</p>
+
+        <!-- Options -->
+        <div class="options">
+          <button class="option-btn">Option 1</button>
+          <button class="option-btn">Option 2</button>
+          <button class="option-btn">Option 3</button>
+          <button class="option-btn">Option 4</button>
+        </div>
+
+        <!-- Feedback Section -->
+        <div id="feedback"></div>
+
+        <!-- Next Button -->
+        <button id="next-question" style="display: none">Next Question</button>
+      </div>
+    </div>
+
+    <!-- Include JavaScript files -->
+    <script type="module" src="script.js"></script>
+    <!-- Make script.js a module -->
+  </body>
+</html>
