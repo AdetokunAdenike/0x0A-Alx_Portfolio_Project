@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Quiz.css";
-import { data } from "../../../../Spello/data";
+import { data } from "./data";
 
 const Quiz = () => {
   const [index, setIndex] = useState(0); // Current question index
