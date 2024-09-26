@@ -16,7 +16,7 @@
           <h2 class="brand" id="brand"><a href="/index.html">Spello</a></h2>
         </div>
         <div class="signInContainer">
-          <a type="button" class="btn btn-primary" href="Spello/auth.html"
+          <a type="button" class="btn btn-primary" onclick="startQuiz()"
             ><span>Login</span></a
           >
         </div>
@@ -35,7 +35,7 @@
             grow.
           </p>
           <div class="button-container">
-            <a href="/Spello/auth.html" class="btn btn-secondary"
+            <a type="button" class="btn btn-secondary" onclick="startQuiz()"
               ><span>Start Quiz</span></a
             >
           </div>
@@ -46,5 +46,11 @@
         </div>
       </div>
     </div>
+
+    <script>
+      function startQuiz() {
+        window.location.href = "http://localhost:3000"; // Link to React login page
+      }
+    </script>
   </body>
 </html>
