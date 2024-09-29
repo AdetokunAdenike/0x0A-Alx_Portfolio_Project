@@ -96,11 +96,6 @@ Here are some related projects and resources:
 
 ## Licensing
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project was approved by ALX Africa.
 
 ---
-
-### Additional Resources:
-
-- **[What your code repository says about you](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile)** - Insights into maintaining an appealing code repository.
-- **[Awesome List of READMEs](https://github.com/matiassingers/awesome-readme)** - Examples of great README files.
