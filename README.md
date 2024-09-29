@@ -6,12 +6,12 @@
 
 **Spello** is an interactive **spelling quiz app** designed to help users improve their spelling skills. It provides randomized spelling quizzes based on a variety of word lists, tracks users' progress, and allows them to review their performance on a personalized dashboard.
 
-[Visit the live app here](https://your-deployed-site.com) <!-- Link to your deployed app -->
-[Read the final project blog article](https://your-blog-link.com) <!-- Link to your blog article -->
+[Visit the live app here](https://adetokunadenike.github.io/0x0A-Alx_Portfolio_Project/) <!-- Link to your deployed app -->
+[Read the final project blog article](https://medium.com/@adetokunadenike/introduction-to-spello-quiz-app-d96550658f5b) <!-- Link to your blog article -->
 
 ## Author
 
-- **[Your Name](https://www.linkedin.com/in/your-linkedin-profile)**
+- **[Adenike Adetokun](www.linkedin.com/in/adenike-adetokun-b95ab1b5)**
 
 ## Installation
 
@@ -20,7 +20,7 @@ To install and run the Spello Quiz App locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/spello-quiz-app.git
+   git clone https://github.com/AdetokunAdenike/spello-quiz-app.git
    ```
 
 2. Navigate to the project directory:
