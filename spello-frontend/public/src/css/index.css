@@ -2,11 +2,27 @@
   margin: 0;
   padding: 0;
 }
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter {
+  
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
 body {
   height: 100vh;
-  /* background-image: linear-gradient(#d8c7ff, #ffc0cb);
-  font-family: "poppins"; */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -41,6 +57,7 @@ nav .container-fluid {
 .hero-container {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   margin-top: 100px;
   gap: 100px;
@@ -126,4 +143,33 @@ nav .container-fluid {
 .btn span {
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 969px) {
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .hero-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-image {
+    /* width: 100%; */
+    display: none;
+  }
+
+  .hero-body {
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
